@@ -16,7 +16,7 @@ if (process.platform == 'linux') {
    app.commandLine.appendSwitch('ppapi-flash-path', '/usr/lib/PepperFlash/libpepflashplayer.so');
    app.commandLine.appendSwitch('ppapi-flash-version', '17.0.0.169');
 } else if (process.platform == 'win32') {
-   app.commandLine.appendSwitch('ppapi-flash-path',  __dirname + '/PepperFlash/win32/pepflashplayer32.dll');
+   app.commandLine.appendSwitch('ppapi-flash-path', __dirname + '/PepperFlash/win32/pepflashplayer32.dll');
    app.commandLine.appendSwitch('ppapi-flash-version', '19.0.0.128');
 }
 
