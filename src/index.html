@@ -6,7 +6,12 @@
       <title>teitoku</title>
       
       <!-- Stylesheets -->
-      <link rel="stylesheet" type="text/css" href="css/app.css" />
+      <script>
+         var sass = require('node-sass');         
+         sass.render({
+            file: 'css/app.scss'
+         })
+      </script>
       
    </head>
    
