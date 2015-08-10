@@ -7,7 +7,7 @@ You will need to download/copy Pepperflash to `/src/PepperFlash/win32` first, if
 ```
 $ git clone https://github.com/shioi/teitoku.git -b coffeescript
 $ cd teitoku\src
-$ npm install electron
+$ npm install electron-prebuilt -g
 $ npm install coffee-script
 $ electron .
 ```
